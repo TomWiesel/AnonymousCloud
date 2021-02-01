@@ -3,7 +3,7 @@
 This program's goal is to ensure an encrypted connection between client and server, and high standards when it comes to data privacy.
 
 # 2. Preface
-Hello! Thank you for looking into my project I am currently working on. Let me introduce you to myself: I am Tom, 18 y/o, living in germany and I am programming for 3 years now. This is my first project I've ever published and it won't be the last. It took me around 55 hours (6 days) for everything to learn, plan and develop. During the development, I gained a lot of information about cryptography and all of it's details. U can really do a huge amount of things to cipher sensitive information!
+Hello! Thank you for showing interest for my project I am currently working on. Let me introduce you to myself: I am Tom, 18 y/o, living in germany and I am programming for 3 years now. This is my first project I've ever published and it won't be the last. It took me around 55 hours (6 days) for everything to learn, plan and develop. During the development, I gained a lot of information about cryptography and all of it's details. U can really do a huge amount of things to cipher sensitive information!
 So much about me and the background stuff, let's start with the project!
 
 # 3. What does the Software provide?
