@@ -15,6 +15,11 @@ The server can handle many users at the time (how many can be assigned in the se
 When everything worked fine, all messages will be encrypted for now on with the secret key and the user has now to decide, whether to register or to login with an already existing account. All accounts are store in a SQL-database in which user ID, username, password and the name of virtual harddrive is being stored. When signing or loggin in, the user password runs through a SHA256 hashing algorithm (which is provided by a python lib) and is send over to the server to compare both hashes. Since this is a fresh new project, protections against bruteforce attacks or bad user inputs (like bad passwords, names, etc.) are missing and will be implemented. 
 Now that the user is logged in, the client can either send or receive their files. Whenever the server receives commands from the client, the server always returns a response if everything worked fine and to keep both processes synchronized. So when the user asks to send files, it gets a "success" or a "fail". When succeeding, the server then receives the file and buffer size, after the user selected which file on his pc to send over. The buffer size is a integer which determines the amount of bytes a packet contains. After the user selected the location in the virtual space, the file transmission now begins. The file transmission and location selection needs an entire chapter, so we save this for later.
 
+# File sharing
+Let's start with the client. Like I mentioned before, it possesses two keys. One generates each time it starts and the other one is stored forever on the clients pc.
+I've done little search on how to store keys securely, so for now it remains in a simple txt-file. When the client selects his file from a Windows File Explorer API, which provided by Tkinter, he creates a new encrypted version of the file.  he sends over important information such as buffer and file size. 
+
+
 # FUTURE PLANS
 - Encrypted chat
 - Encrypted voice chat
