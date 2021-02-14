@@ -1,3 +1,4 @@
+
 # AnonymousCloud
 This program's goal is to ensure an encrypted connection between client and server and high standards when it comes to data privacy.
 
@@ -16,6 +17,7 @@ Now that's done, the user has to decide whether to register or to login with an 
 Now that the user is logged in, the client can either send or receive their files. Whenever the server receives commands from the client, the server always returns a response whether everything worked fine. So when the user asks to send files, it gets a "success" or a "fail". 
 
 # FUTURE PLANS
+- Replace Sqlite3 with PostgreSQL
 - Encrypted chat
 - Encrypted voice chat
 - Encrypted video chat
