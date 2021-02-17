@@ -17,7 +17,8 @@ Now that's done, the user has to decide whether to register or to login with an 
 Now that the user is logged in, the client can either send or receive their files. Whenever the server receives commands from the client, the server always returns a response whether everything worked fine. So when the user asks to send files, it gets a "success" or a "fail". 
 
 # FUTURE PLANS
-- Replace Sqlite3 with PostgreSQL
+- Config file will be added
+- Code optimization (make code more organized)
 - Encrypted chat
 - Encrypted voice chat
 - Encrypted video chat
